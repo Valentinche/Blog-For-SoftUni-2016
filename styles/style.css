@@ -91,7 +91,7 @@ body{
 	
 }
 
-.blog-title,.register-title, .new-post-title {
+.blog-title,.register-title, .new-post-title, .login-title, .recepti-title {
 	width: 400px;
 	float: right;
 	text-shadow:2px 3px 1px rgba(0,0,0,1);
@@ -102,11 +102,19 @@ body{
 	font-size:35px;
 	text-align:right;
 	font-family:times new roman, times, serif;
-	line-height:1;
+	
 	border-bottom: 3px solid;
 	display: inline-block;
 }
-
+.register-title{
+	width: 220px;
+}
+.login-title{
+	width: 100px;
+}
+.recepti-title{
+	width: 150px;
+}
 .single-menu-elemnt-link{
 	text-decoration: none;
 	color: white;
