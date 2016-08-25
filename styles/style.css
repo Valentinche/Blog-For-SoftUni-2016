@@ -145,3 +145,15 @@ footer{
 	line-height:1;
 }
 /*END FOOTER*/
+
+.content{
+	background-image: url('../Image/old_paper.png');
+	
+	width: 463px;
+	height: 668px;
+	opacity: 0.9;
+	float:left;
+	margin-top: 50px;
+
+
+}
