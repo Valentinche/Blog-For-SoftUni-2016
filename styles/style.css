@@ -91,8 +91,8 @@ body{
 	
 }
 
-.blog-title,.register-title, .new-post-title, .login-title, .recepti-title {
-	width: 400px;
+.blog-title {
+	width: 0 auto;
 	float: right;
 	text-shadow:2px 3px 1px rgba(0,0,0,1);
 	font-weight:normal;
@@ -105,15 +105,6 @@ body{
 	
 	border-bottom: 3px solid;
 	display: inline-block;
-}
-.register-title{
-	width: 220px;
-}
-.login-title{
-	width: 100px;
-}
-.recepti-title{
-	width: 150px;
 }
 .single-menu-elemnt-link{
 	text-decoration: none;
@@ -154,6 +145,14 @@ footer{
 	opacity: 0.9;
 	float:left;
 	margin-top: 50px;
-
-
+}
+.single-content-elemnt-link{
+	text-decoration: none;
+	color: black;
+	font-weight: 300;
+	display: block;
+	margin-left: 70px;
+}
+.nav-bar-content{
+	
 }
